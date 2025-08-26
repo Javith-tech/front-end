@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>🌍 Orbiter</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="btn">Subscribe</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h2>Welcome to Our Earth</h2>
+      <h1>Explore the Wonders of</h1>
+      <p>
+        Earth, our home, is a vibrant and diverse planet teeming with life. 
+        Discover its breathtaking landscapes, diverse ecosystems.
+      </p>
+      <a href="#" class="btn">Explore Now</a>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth Image">
+  </section>
+
+  <!-- Grid Content -->
+  <section class="content">
+    <!-- Left Sidebar -->
+    <div class="side-aside">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#catalogs">Catalogs</a></li>
+      </ul>
+    </div>
+
+    <!-- Main Biomes -->
+    <div class="center about" id="about">
+      <h2>The Biomes of</h2>
+      <p>Dive into the intricate systems that support life on our planet</p>
+      <div class="biomes-grid">
+        <div class="biome">
+          <h3>About Our Planet</h3>
+          <p>Earth, the third planet from the Sun, is the only known world with abundant life.</p>
+        </div>
+        <div class="biome">
+          <h3>The Continents</h3>
+          <p>Our planet’s surface is divided into vast continents with unique ecosystems.</p>
+        </div>
+        <div class="biome">
+          <h3>The Oceans</h3>
+          <p>Covering 70% of Earth’s surface, oceans are crucial in regulating global climate.</p>
+        </div>
+        <div class="biome">
+          <h3>Our Atmosphere</h3>
+          <p>The atmosphere is the thin veil of gases that protects and sustains life on Earth.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <aside class="right">
+      <h2>Other Planets</h2>
+      <div class="planet">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFKvrXx4NZgI-0S3i4OybWyNeI8vTu9GzANw&s" alt="Mercury">
+        <span>Mercury</span>
+      </div>
+      <div class="planet">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus">
+        <span>Venus</span>
+      </div>
+      <div class="planet">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Mars">
+        <span>Mars</span>
+      </div>
+      <div class="planet">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Jupiter_New_Horizons.jpg" alt="Jupiter">
+        <span>Jupiter</span>
+      </div>
+      <div class="planet">
+        <img src="data:image/jpeg;base64,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" alt="Saturn">
+        <span>Saturn</span>
+      </div>
+    </aside>
+  </section>
+
+
+  <!-- 🌍 Explore + 📂 Catalogs Section -->
+<section id="explore-catalogs">
+  
+  <!-- Explore Earth -->
+  <div class="explore center" id="explore">
+    <h2>Explore Earth</h2>
+    
+    <ul class="explore-list">
+      <li>Position in Solar System: Earth is the third planet from the Sun.</li>
+      <li>Unique for Life: The only known planet that supports life.</li>
+      <li>Surface Composition: ~71% covered by water (oceans, seas, lakes, rivers).</li>
+      <li>Continents & Landforms: Contains mountains, plains, deserts, valleys, and forests.</li>
+      <li>Atmosphere: Rich in nitrogen and oxygen, protects life from harmful solar radiation.</li>
+      <li>Climate Zones: Ranges from polar ice caps to tropical rainforests.</li>
+      <li>Biodiversity: Millions of species of plants, animals, and microorganisms.</li>
+    </ul>
+  </div>
+
+  <!-- Catalogs -->
+  <div class="catalogs center" id="catalogs">
+    <h1>Catalogs</h1>
+    <div class="catalog-card">
+      <img src="./3d-rendering-planet-earth.jpg" alt="Earth" class="img-earth">
+      <h2>Earth</h2>
+      <p>
+        Earth is the third planet from the Sun and the only astronomical object known to harbor life. 
+        About 71% of its surface is covered with water, while the land hosts rich biodiversity. 
+        Its atmosphere contains the right mix of gases to sustain ecosystems and regulate climate.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+
+<footer class="footer" id="footer">
+  <div class="footer-container">
+    <!-- Left Logo + Copyright -->
+    <div class="footer-left">
+      <img src="./3d-rendering-planet-earth.jpg" alt="Logo" class="footer-logo">
+      <p>© 2025 Orbiter, Inc.<br>All rights reserved.</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Resources -->
+    <div class="footer-column">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Downloads</a></li>
+      </ul>
+    </div>
+
+    <!-- Connect -->
+    <div class="footer-column">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
